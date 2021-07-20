@@ -37,7 +37,7 @@ img {
   color: #333;
 }
 
-/* Estilos del Menu */
+
 .main-nav {
   opacity: 0;
   visibility: hidden;
@@ -193,7 +193,8 @@ img {
   background: #FF4E00;
   color: white;
 }
-/* ESTILOS DE PRODUCTOS */
+
+
 .container-products {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -206,7 +207,7 @@ img {
   position: relative;
 }
 .product:before {
-  content: "New";
+  content: "Nuevo";
   background: #FF4E00;
   padding: 10px;
   width: 60px;
@@ -263,7 +264,7 @@ img {
 .editor__circle{
   width: 200px;
   height: 200px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -271,7 +272,7 @@ img {
   position: absolute;
   bottom: -200px;
   right: -150px;
-  color: white;
+  color: black;
   padding: 20px;
   padding-bottom: 70px;
   padding-right: 50px;
@@ -345,7 +346,7 @@ img {
   color: #555;
 }
 
-/*Estilos para tablet*/
+
 @media screen and (min-width:768px) {
   .slider{
     height: 400px;
@@ -359,7 +360,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-/*Estilos para web*/
+
+
 
 @media screen and (min-width:1024px) { 
   .container{
